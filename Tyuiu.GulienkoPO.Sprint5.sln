@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GulienkoPO.Sprint5.Ta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{5DC4891E-65A2-4203-9597-F40A4BAF63A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GullienkoPO.Sprint5.Task1.V26.Test", "Tyuiu.GullienkoPO.Sprint5.Task1.V26.Test\Tyuiu.GullienkoPO.Sprint5.Task1.V26.Test.csproj", "{59CF2103-E682-46E6-969F-1D85AFD8CD42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GulienkoPO.Sprint5.Task1.V26.Test", "Tyuiu.GullienkoPO.Sprint5.Task1.V26.Test\Tyuiu.GulienkoPO.Sprint5.Task1.V26.Test.csproj", "{59CF2103-E682-46E6-969F-1D85AFD8CD42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GulienkoPO.Sprint5.Task1.V26.Lib", "Tyuiu.GulienkoPO.Sprint5.Task1.V26.Lib\Tyuiu.GulienkoPO.Sprint5.Task1.V26.Lib.csproj", "{2768D827-B3FA-448B-BE4B-5164A0AE99A1}"
 EndProject
