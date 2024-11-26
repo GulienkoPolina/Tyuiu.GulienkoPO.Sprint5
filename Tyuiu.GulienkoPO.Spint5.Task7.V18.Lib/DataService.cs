@@ -2,6 +2,7 @@
 
 namespace Tyuiu.GulienkoPO.Sprint5.Task7.V18.Lib
 {
+
     public class DataService : ISprint5Task7V18
     {
         public string LoadDataAndSave(string path)
