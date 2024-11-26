@@ -9,7 +9,7 @@ namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5.Lib
         {
             int minInt = 0;
             int maxInt = 0;
-            using (StreamReader reader = new StreamReader(path))
+            using (StreamReader reader = new(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
