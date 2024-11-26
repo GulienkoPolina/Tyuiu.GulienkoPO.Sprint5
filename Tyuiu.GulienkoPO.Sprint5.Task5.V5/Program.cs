@@ -9,16 +9,17 @@ namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Найти разницу между максимальным и минимальным целыми числами в файле.  *");
-            Console.WriteLine("* Полученный результат вывести на консоль. У вещественных значений        *");
-            Console.WriteLine("* округлить до трёх знаков после запятой                                  *");
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine("*******************************************************************************");
+            Console.WriteLine("* Условие                                                                     *");
+            Console.WriteLine("* Прочитать значение из файла и подставить вместо Х в формуле . Вычислить     *");
+            Console.WriteLine("* значение по формуле (Полученное значение округлить до трёх знаков после     *");
+            Console.WriteLine("* запятой) и вернуть полученный результат на консоль                          *");
+            Console.WriteLine("*******************************************************************************");
+            Console.WriteLine("* Исходные данные:                                                            *");
+            Console.WriteLine("*******************************************************************************");
             string path = @"C:\Users\бебе\source\repos\Tyuiu.GulienkoPO.Sprint5\Tyuiu.GulienkoPO.Sprint5.Task5.V5\bin\Debug\net8.0\DataSprint5\InPutDataFileTask5V5.txt";
+
             Console.WriteLine("Данные файла находятся в " + path);
             Console.WriteLine("* Результат:                                                                  *");
             Console.WriteLine("*******************************************************************************");

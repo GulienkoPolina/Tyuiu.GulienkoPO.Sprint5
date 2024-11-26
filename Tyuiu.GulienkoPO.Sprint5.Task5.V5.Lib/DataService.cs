@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Linq;
 using tyuiu.cources.programming.interfaces.Sprint5;
 
 namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5.Lib
@@ -10,8 +12,9 @@ namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5.Lib
             string n = File.ReadAllText(path);
             string[] array = n.Split(' ');
             double[] x = new double[array.Length];
-            double max = -10 * 10;
-            double min = 10 * 10;
+
+            double max = 20;
+            double min = -10;
             for (int i = 0; i < array.Length; i++)
             {
                 if (x[i] > max)
