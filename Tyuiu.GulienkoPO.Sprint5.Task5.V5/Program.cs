@@ -18,7 +18,7 @@ namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            string path = @"C:\DataSprint5\InPutDataFileTask5V5.txt";
+            string path = @"""C:\DataSprint5\InPutDataFileTask5V5.txt.txt""";
             Console.WriteLine(" Данные находятся в файле: " + path);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

@@ -9,7 +9,7 @@ namespace Tyuiu.GulienkoPO.Sprint5.Task5.V5.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask5V5.txt";
+            string path = @"""C:\DataSprint5\InPutDataFileTask5V5.txt.txt""";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
